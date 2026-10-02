@@ -1,6 +1,6 @@
-# SitGuard - Mobile App
+# SitX - Mobile App
 
-A Flutter application for the SitGuard posture corrector vest system. The app connects to the backend via REST API and WebSocket for real-time posture monitoring.
+A Flutter application for the SitX posture corrector vest system. The app connects to the backend via REST API and WebSocket for real-time posture monitoring.
 
 ## Prerequisites
 
@@ -17,28 +17,15 @@ flutter doctor
 
 ## Getting Started
 
-### 1. Navigate to the Mobile directory
 
-```bash
-cd Mobile
-```
-
-### 2. Install dependencies
+### 1. Install dependencies
 
 ```bash
 flutter pub get
 ```
 
-### 3. Configure the backend URL (optional)
 
-The app points to the hosted backend by default. To use a local backend, edit [`lib/config.dart`](lib/config.dart):
-
-```dart
-static const String apiBaseUrl = 'http://<your-local-ip>:<port>';
-static const String webSocketUrl = 'http://<your-local-ip>:<port>';
-```
-
-### 4. Run the app
+### 2. Run the app
 
 ```bash
 # Run on a connected device or emulator
