@@ -1,6 +1,7 @@
 # SitX - Mobile App
 
 A Flutter application for the SitX posture corrector vest system. The app connects to the backend via REST API and WebSocket for real-time posture monitoring.
+This is developed using Getx state managament.
 
 ## Prerequisites
 
